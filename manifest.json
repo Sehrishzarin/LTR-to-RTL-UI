@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Language Switcher",
+  "version": "1.0",
+  "description": "Switch between Arabic and Hebrew translations.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"]
+}
